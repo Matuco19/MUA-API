@@ -9,3 +9,4 @@
 - [x] Add Sentiment Analysis Endpoint (v0.1)
 - [ ] Add LLM Token Counter Endpoint
 - [x] Add CORS Proxy Endpoint (v0.1)
+- [ ] Add yt downloader api

@@ -13,8 +13,7 @@
     "express": "^5.2.1",
     "puppeteer": "^24.32.0",
     "sentiment": "^5.0.2",
-    "tesseract.js": "^6.0.1",
-    "ytdl-core": "^4.11.5"
+    "tesseract.js": "^6.0.1"
   },
   "license": "MATCO Open Source V1"
 }
