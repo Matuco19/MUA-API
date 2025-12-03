@@ -1,6 +1,6 @@
 # MSA API
 
-MSA API (Matuco19 System API) is a multi-purpose API developed in Node.js.
+MSA API (Matuco19 System API) is a multi-purpose API developed in Node.js that offers a variety of services through a simple and easy-to-use interface. The API is designed to be a versatile tool for developers, providing a range of functionalities that can be integrated into any project.
 
 ---
 
@@ -34,7 +34,7 @@ npm install
 
 ## Usage
 
-> [!INFO]
+> [!NOTE]
 > This project uses `fetch` at runtime; ensure Node >= 18 or install `node-fetch` if running a lower Node version.
 
 To start the server, run the following command:
