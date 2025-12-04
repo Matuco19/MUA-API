@@ -7,7 +7,9 @@
 - [ ] Add OCR Endpoint
 - [ ] Add AI Provider Endpoint
 - [x] Add Sentiment Analysis Endpoint (v0.1)
-- [ ] Add LLM Token Counter Endpoint
+- [x] Add LLM Token Counter Endpoint (v0.1)
 - [x] Add CORS Proxy Endpoint (v0.1)
+- [ ] Add documentation
+- [ ] Add 'heartbeart' Endpoint showing API status
 - [ ] Add YT-Downloader Endpoint
 - [ ] Add Password-Strength Endpoint

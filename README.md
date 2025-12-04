@@ -14,6 +14,7 @@ MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js that 
     - [Screenshot](#screenshot)
     - [About](#about)
     - [Analyze Sentiment](#analyze-sentiment)
+    - [LLM/Token Counter](#llmtoken-counter)
     - [CORS Proxy](#cors-proxy)
   - [Developer Information](#developer-information)
   - [License](#license)
@@ -92,6 +93,31 @@ The response will be a dictionary with `sentiment` and `polarity` keys, like:
 {
   "sentiment": "positive",
   "polarity": 0.666666666666667
+}
+```
+
+### LLM/Token Counter
+
+- **URL**: `/llm/token-counter`
+- **Method**: `GET`
+- **Query Parameters**:
+  - `text` (required): The text for which to count the tokens.
+  - `model` (optional): The tokenizer model to use. Defaults to `o200k_base`.
+    - `cl100k_base`: Used by `gpt-3.5-turbo`, `gpt-4`, and `gpt-4o`.
+    - `o200k_base`: Used by `gpt-4.1` and `gpt-4o-mini`.
+
+**Example**:
+
+- Default model: `/api/llm/token-counter?text=Hello%20world!`
+- Specific model: `/api/llm/token-counter?text=Hello%20world!&model=cl100k_base`
+
+**Example Response**:
+
+The response will be a JSON object with the `tokenCount`, like:
+
+```json
+{
+  "tokenCount": 2
 }
 ```
 
