@@ -12,4 +12,4 @@
 - [ ] Add documentation
 - [ ] Add 'heartbeart' Endpoint showing API status
 - [ ] Add YT-Downloader Endpoint
-- [ ] Add Password-Strength Endpoint
+- [x] Add Password-Strength Endpoint (v0.9)

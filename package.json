@@ -5,7 +5,10 @@
   "author": "Matuco19",
   "description": "MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js.",
   "homepage": "https://matuco19.com/mua-api",
-  "repository": {"url": "https://github.com/Matuco19/MUA-API", "type": "git"},
+  "repository": {
+    "url": "https://github.com/Matuco19/MUA-API",
+    "type": "git"
+  },
   "readme": "README.md",
   "main": "src/index.js",
   "scripts": {
@@ -14,6 +17,7 @@
   "dependencies": {
     "express": "^5.2.1",
     "gpt-tokenizer": "^3.4.0",
+    "password-strength-tester": "^1.0.4",
     "puppeteer": "^24.32.0",
     "sentiment": "^5.0.2",
     "tesseract.js": "^6.0.1"

@@ -16,6 +16,7 @@ MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js that 
     - [Analyze Sentiment](#analyze-sentiment)
     - [LLM/Token Counter](#llmtoken-counter)
     - [CORS Proxy](#cors-proxy)
+    - [Password Strength](#password-strength)
   - [Developer Information](#developer-information)
   - [Contributions](#contributions)
   - [License](#license)
@@ -150,6 +151,27 @@ if raw mode is not enabled, the endpoint will return a discretionary with the it
     "http_code": 200,
     "content_type": "text/html; charset=UTF-8"
   }
+}
+```
+
+### Password Strength
+
+- **URL**: `/password-strength`
+- **Method**: `POST`
+- **Body**:
+  - `password`: The password to analyze.
+
+**Example**: `curl -X POST -H "Content-Type: application/json" -d '{"password": "password123"}' http://localhost:3000/api/password-strength`
+
+**Example Response**:
+
+The response will be a JSON object with the password's strength analysis, like:
+
+```json
+{
+  "strength_percentage": 35,
+  "strength_text": "Weak",
+  "estimated_crack_time": "Seconds to minutes"
 }
 ```
 
