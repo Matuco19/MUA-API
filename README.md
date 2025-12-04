@@ -1,6 +1,6 @@
 # MUA API
 
-MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js that offers a variety of services through a simple and easy-to-use interface. The API is designed to be a versatile tool for developers, providing a range of functionalities that can be integrated into any project.
+MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js that offers a variety of services through a simple and easy-to-use interface. The API is designed to be a versatile tool for developers, providing a range of functionalities that can be integrated into any project. Don't forget to ⭐ the project!
 
 ---
 
@@ -17,13 +17,14 @@ MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js that 
     - [LLM/Token Counter](#llmtoken-counter)
     - [CORS Proxy](#cors-proxy)
   - [Developer Information](#developer-information)
+  - [Contributions](#contributions)
   - [License](#license)
 
 ---
 
 ## Installation
 
-To get started, clone the repository and install the dependencies:
+To get started, make sure you have Node.js installed, clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/Matuco19/MUA-Api
@@ -161,6 +162,12 @@ This project is developed and maintained by **Matuco19**.
 - Matuco19 Website: [matuco19.com](https://matuco19.com)  
 - GitHub: [github.com/Matuco19](https://github.com/Matuco19)
 - Discord Server: [discord.gg/Matuco19Server0](https://discord.gg/hp7yCxHJBw)
+
+---
+
+## Contributions
+
+Contributions are welcome! Feel free to open an issue or submit a pull request on GitHub.
 
 ---
 

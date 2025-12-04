@@ -5,6 +5,8 @@
   "author": "Matuco19",
   "description": "MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js.",
   "homepage": "https://matuco19.com/mua-api",
+  "repository": {"url": "https://github.com/Matuco19/MUA-API", "type": "git"},
+  "readme": "README.md",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
