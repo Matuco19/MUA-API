@@ -1,12 +1,12 @@
-# MSA API
+# MUA API
 
-MSA API (Matuco19 System API) is a multi-purpose API developed in Node.js that offers a variety of services through a simple and easy-to-use interface. The API is designed to be a versatile tool for developers, providing a range of functionalities that can be integrated into any project.
+MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js that offers a variety of services through a simple and easy-to-use interface. The API is designed to be a versatile tool for developers, providing a range of functionalities that can be integrated into any project.
 
 ---
 
 ## Table of Contents
 
-- [MSA API](#msa-api)
+- [MUA API](#mua-api)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -25,8 +25,8 @@ MSA API (Matuco19 System API) is a multi-purpose API developed in Node.js that o
 To get started, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/Matuco19/MSA-Api
-cd MSA-Api
+git clone https://github.com/Matuco19/MUA-Api
+cd MUA-Api
 npm install
 ```
 

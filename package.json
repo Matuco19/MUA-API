@@ -1,10 +1,10 @@
 {
-  "name": "msa-api",
-  "displayName": "MSA API",
+  "name": "mua-api",
+  "displayName": "MUA API",
   "version": "0.1.0",
   "author": "Matuco19",
-  "description": "MSA API (Matuco19 System API) is a multi-purpose API developed in Node.js.",
-  "homepage": "https://matuco19.com/msa-api",
+  "description": "MUA API (Matuco19 Utility API) is a multi-purpose API developed in Node.js.",
+  "homepage": "https://matuco19.com/mua-api",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

@@ -20,6 +20,6 @@ fs.readdirSync(routesDir).forEach(file => {
 });
 
 app.listen(PORT, () => {
-    console.log(`MSA API - Matuco19 System API - v${package.version}`)
+    console.log(`MUA API - Matuco19 Utility API - v${package.version}`)
     console.log(`Server is running on http://localhost:${PORT}`);
 });

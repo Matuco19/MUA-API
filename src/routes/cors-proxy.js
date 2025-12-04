@@ -75,7 +75,7 @@ router.get('/', async (req, res) => {
   const id = setTimeout(() => controller.abort(), timeout);
 
   try {
-    const fetched = await fetch(target, { headers: { 'User-Agent': 'MSA-API CORS Proxy' }, signal: controller.signal });
+    const fetched = await fetch(target, { headers: { 'User-Agent': 'MUA-API CORS Proxy' }, signal: controller.signal });
     clearTimeout(id);
 
     if (raw) {
