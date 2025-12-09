@@ -9,6 +9,9 @@ Below, there are all the MUA API changelogs, from the most recent to the oldest,
 - Integrated `password-strength-tester` dependency for robust analysis.
 - Documented the new endpoint with usage examples and response structure in `README.md`.
 - Marked the "Add Password-Strength Endpoint" task as complete in `todo.md`.
+- Renamed the main application entry point from `src/index.js` to `src/main.js`.
+- Adjusted `package.json` `main` and `start` scripts to point to `src/main.js`.
+- Updated `.gitignore` to ignore all log files using `*.log`.
 
 ## v0.1.0 - 12.04.2025
 
