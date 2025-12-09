@@ -10,9 +10,9 @@
     "type": "git"
   },
   "readme": "README.md",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/main.js"
   },
   "dependencies": {
     "express": "^5.2.1",

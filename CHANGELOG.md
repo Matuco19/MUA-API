@@ -2,9 +2,13 @@
 
 Below, there are all the MUA API changelogs, from the most recent to the oldest, respectively, and with the date in the format `mm.dd.yyyy`.
 
-## v0.9.0 - 12.xx.2025
+## v0.9.0 - 12.09.2025
 
 - Published as Open-Source in Github
+- Added `POST /password-strength` endpoint to analyze password strength.
+- Integrated `password-strength-tester` dependency for robust analysis.
+- Documented the new endpoint with usage examples and response structure in `README.md`.
+- Marked the "Add Password-Strength Endpoint" task as complete in `todo.md`.
 
 ## v0.1.0 - 12.04.2025
 
