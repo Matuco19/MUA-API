@@ -2,7 +2,15 @@
 
 Below, there are all the MUA API changelogs, from the most recent to the oldest, respectively, and with the date in the format `mm.dd.yyyy`.
 
-## v0.9.0 - 12.09.2025
+## v0.9.1 - 12.09.2025 | Security Update
+
+- Introduced `MAX_TIMEOUT_MS` to enforce a maximum timeout of 30 seconds for CORS proxy requests.
+- Clamped user-defined timeouts in the CORS proxy to be between 3 seconds and `MAX_TIMEOUT_MS`.
+- Implemented a robust `isValidURL` function in the screenshot service to validate target URLs.
+- Blocked requests to local and IP addresses within the screenshot service for enhanced security.
+- Ensured only `http:` and `https:` protocols are allowed for screenshot requests.
+
+## v0.9.0 - 12.09.2025 | Publish & Endpoints
 
 - Published as Open-Source in Github
 - Added `POST /password-strength` endpoint to analyze password strength.
@@ -13,7 +21,7 @@ Below, there are all the MUA API changelogs, from the most recent to the oldest,
 - Adjusted `package.json` `main` and `start` scripts to point to `src/main.js`.
 - Updated `.gitignore` to ignore all log files using `*.log`.
 
-## v0.1.0 - 12.04.2025
+## v0.1.0 - 12.04.2025 | Core Adition
 
 - First Version
 - Implement `/api/llm/token-counter` endpoint for efficient token counting.

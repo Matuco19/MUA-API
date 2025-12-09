@@ -7,6 +7,7 @@ const router = express.Router();
 const cache = new Map();
 const MAX_CACHE_ENTRIES = 100; // keep memory reasonable
 const DEFAULT_TTL_SECONDS = 60; // 1 min
+const MAX_TIMEOUT_MS = 30000; // 30 sec
 
 function setCache(key, value, ttlSeconds = DEFAULT_TTL_SECONDS) {
   const expiresAt = Date.now() + ttlSeconds * 1000;
@@ -47,7 +48,10 @@ router.options('/', (req, res) => {
 router.get('/', async (req, res) => {
   const target = req.query.url;
   const raw = (req.query.raw || '').toString().toLowerCase() === 'true' || req.query.raw === '1';
-  const timeout = Math.max(3000, parseInt(req.query.timeout, 10) || 10000); // ms
+  let timeout = parseInt(req.query.timeout, 10);
+  // maybe this fixes the vulnerability #1
+  if (isNaN(timeout)) timeout = 10000; // def
+  timeout = Math.max(3000, Math.min(timeout, MAX_TIMEOUT_MS));
   const cacheTtl = parseInt(req.query.cache_ttl, 10) || DEFAULT_TTL_SECONDS;
   const cacheKey = `${raw ? 'raw:' : 'json:'}${target}`;
 
