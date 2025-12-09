@@ -1,4 +1,5 @@
 const express = require('express');
+const net = require('net');
 const { pipeline, Readable } = require('stream');
 const { PassThrough } = require('stream');
 
@@ -31,7 +32,14 @@ function getCache(key) {
 function validateUrl(urlString) {
   try {
     const parsed = new URL(urlString);
-    return parsed.protocol === 'http:' || parsed.protocol === 'https:';
+    const { protocol, hostname } = parsed;
+    if (protocol !== 'http:' && protocol !== 'https:') {
+      return false;
+    }
+    if (net.isIP(hostname)) {
+      return false;
+    }
+    return true;
   } catch (err) {
     return false;
   }

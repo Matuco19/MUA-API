@@ -11,7 +11,7 @@ const isValidURL = (urlString) => {
         if (protocol !== 'http:' && protocol !== 'https:') {
             return false;
         }
-        // bblock to IP address hosts
+        // block to IP address hosts
         if (net.isIP(hostname) !== 0) {
             return false;
         }
