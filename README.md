@@ -195,6 +195,6 @@ Contributions are welcome! Feel free to open an issue or submit a pull request o
 
 ## License
 
-![License-MATCO Open Source V1](https://img.shields.io/badge/License-MATCO_Open_Source_V1-blue.svg)
+![MATCO-OSS 2.0 LICENSE](https://img.shields.io/badge/LICENSE-MATCO_OSS_2.0-blue.svg)
 
-This project is open-source and available under the [MATCO-Open-Source License](https://matuco19.com/licenses/MATCO-Open-Source). See the `LICENSE` file for details.
+This project is open-source and available under the [MATCO-OSS 2.0 LICENSE](https://matuco19.com/licenses/matco-2.0-oss). See the `LICENSE` file for details.
