@@ -18,7 +18,7 @@
     "express": "^5.2.1",
     "gpt-tokenizer": "^3.4.0",
     "password-strength-tester": "^1.0.4",
-    "puppeteer": "^24.32.0",
+    "puppeteer": "^25.16.0",
     "sentiment": "^5.0.2",
     "tesseract.js": "^6.0.1"
   },
